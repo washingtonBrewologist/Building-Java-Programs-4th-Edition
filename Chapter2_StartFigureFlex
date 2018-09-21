@@ -1,0 +1,36 @@
+/*
+* Here our program will produce a starFigure with that can be changed
+* from HEIGHT 3 or HEIGHT 6.
+* Desired output:
+1.)SUB_HEIGHT 3:
+////////\\\\\\\\
+////********\\\\
+****************
+
+2.) SUB_HEIGHT 6:
+////////////////////\\\\\\\\\\\\\\\\\\\\
+////////////////********\\\\\\\\\\\\\\\\
+////////////****************\\\\\\\\\\\\
+////////************************\\\\\\\\
+////********************************\\\\
+****************************************
+* */
+
+public class Chapter2_StarFigure {
+    public static final int SUB_HEIGHT = 6;
+    public static void main(String[] args){
+
+        for (int line = 1; line<= SUB_HEIGHT; line++){
+            for (int i = 1; i<= (SUB_HEIGHT * 4 - 4 * line); i++){
+                System.out.print("/");
+            }
+            for (int j = 1; j <= (line - 1) * 8; j++){
+                System.out.print("*");
+            }
+            for (int i = 1; i<= SUB_HEIGHT * 4 - 4 * line; i++){
+                System.out.print("\\");
+            }
+            System.out.println();
+        }
+    }
+}
