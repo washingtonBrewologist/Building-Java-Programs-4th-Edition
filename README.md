@@ -1,3 +1,4 @@
-Building Java Programs 4th Edition
+CS 140 Whatcom Community College Fall 2018
+Intructor: Ryan Parsons
 
-Self-check, book exercises and projects from Building Java Projects 4th edition.
+Class work, Assignments and Labs!
